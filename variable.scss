@@ -1,0 +1,33 @@
+$color:green;
+body{
+    margin-top:0.5px;
+    background-size: cover;
+}
+ol{
+    font-size: 14px;
+    color: $color;
+}
+.container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    position: fixed;
+   right: 70%;
+    
+   
+    a{
+        margin: 10px;
+    }
+
+    ul{
+        color:$color;
+        font-size: 14px;
+        list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+    }
+}
